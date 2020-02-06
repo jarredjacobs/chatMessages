@@ -1,0 +1,106 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.chatMessages {
+  display: block;
+  border: 1px black solid;
+  padding: 10px;
+}
+
+.chatTitle {
+  text-align: center;
+}
+
+.chatHeader {
+  position: relative;
+  height: 15px;
+}
+
+.sortMessages {
+  position: absolute;
+  right: 40px;
+  cursor: pointer;
+}
+
+.pageControls {
+  border: 1px solid black;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 120px 1fr 120px;
+  align-items: center;
+}
+
+.pageControls div {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.pageControls .pageNumber {
+  text-align: center;
+}
+
+li.chatMessage {
+  position: relative;
+  display: block;
+  border-top: 1px black solid;
+  padding: 10px 5px;
+}
+
+li.chatMessage.even {
+  background-color: rgb(225, 235, 238);
+}
+
+.msgHeader {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.msgSender {
+  display: flex;
+  align-items: flex-start;
+}
+
+.msgSender .senderAvatar {
+  border: 1px black solid;
+  padding: 3px;
+  background-color: white;
+}
+
+.msgSender .senderId {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.msgContent {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.msgControls {
+  position: relative;
+  height: 40px;
+}
+
+.msgDelete.button {
+  margin-top: 10px;
+  position: absolute;
+  right: 30px;
+}
+
+.button {
+  border: 1px black solid;
+  display: inline-block;
+  padding: 3px 6px;
+  margin: 3px;
+  background-color: lightgray;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: gray;
+}
